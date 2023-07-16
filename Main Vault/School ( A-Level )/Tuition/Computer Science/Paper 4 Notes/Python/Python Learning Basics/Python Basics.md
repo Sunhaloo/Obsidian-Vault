@@ -179,7 +179,7 @@ print(type(hello))
 print(type(num))
 print(type(pi))
 print(type(boolean_1))
-print(type((boolean_2))
+print(type(boolean_2))
 
 #Outputs:
 #<class 'str'>
