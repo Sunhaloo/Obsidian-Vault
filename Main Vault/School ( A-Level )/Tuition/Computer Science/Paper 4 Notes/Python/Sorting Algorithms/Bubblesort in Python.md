@@ -25,8 +25,6 @@ A **bubble sort** also known as a *sinking sort*, is a **simple** algorithm that
 
 It will then **compare** each item in the array with one another, then it will swap the items as intended ( ascending / descending order ).
 
-Read more at [Wikipedia](https://en.wikipedia.org/wiki/Bubble_sort)
-
 # Code:
 
 ## Bubblesort Procedure/Function Only:
