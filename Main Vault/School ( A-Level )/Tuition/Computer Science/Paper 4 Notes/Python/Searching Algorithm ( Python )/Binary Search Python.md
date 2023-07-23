@@ -114,7 +114,7 @@ print()
 array = [786, 23, 0, 25, 8, 17]
 
 # Ask the user to input a value to find
-user_find = int(input("Please Enter A Number To Find"))
+user_find = int(input("Please Enter A Number To Find: "))
 
 # We need to pass 2 arguments inside the function
 # We need to pass the array - In this case our array is called "array"
