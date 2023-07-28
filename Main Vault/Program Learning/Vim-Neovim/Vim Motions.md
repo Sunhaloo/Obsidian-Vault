@@ -26,6 +26,7 @@ date: 16-07-2023
 	- [[Vim Motions#Redo | Redo]]
 	- [[Vim Motions#Copy Selected Text | Copy Selected Text]]
 	- [[Vim Motions#Paste Selected Text | Paste Selected Text]]
+	- [[Vim Motions#Copy from Neovim to External Applications | Copy from Neovim to External Applications]]
 - [[Vim Motions#Moving Around in NORMAL Mode | Moving Around in NORMAL Mode]]
 	- [[Vim Motions#Moving Cursor ( Character by Character ) | Moving Cursor ( Character by Character )]]
 	- [[Vim Motions#Moving Cursor ( Word by Word ) | Moving Cursor ( Word by Word )]]
@@ -148,14 +149,55 @@ When selecting, it will follow the *shape* of a **square**/**block**
 
 ## Delete Without Selecting
 
-This will deletea line but will only delete whatever there is **after** the cursor. To delete *"a line"*, use:
+This will delete a line but will only delete whatever there is **after** the cursor. To delete a sentence, use:
 
-```
+```vim
 
 D
 
 ```
 
+This will delete a line with or without text in the line. To delete a *line* use:
+
+```vim
+
+dd
+
+```
+
+Press the key "d" twice on the keyboard
+
+### Deleting After Cursor
+
+To delete after cursor, use:
+
+```vim
+
+dw
+
+```
+
+### Deleting Before Cursor
+
+To delete before cursor, use:
+
+```vim
+
+db
+
+```
+
+### Deleting till end of line
+
+To delete something till end of line, use:
+
+```vim
+
+d$
+
+```
+
+This means that we have to press "d" and then press "Shift + 4"
 ## Delete Selected Text
 
 After selecting a some text we could remove it. To remove the selected lines, use:
@@ -211,6 +253,18 @@ p
 P
 
 ```
+
+## Copy from Neovim to External Applications
+
+To **copy** from vim to other application ( *example:* browser, notepad, and more )
+
+```vim
+
+Shift + "drag mouse"
+
+```
+
+Then, we could simply use: *Ctrl + V* or *right click* to paste
 
 ---
 
