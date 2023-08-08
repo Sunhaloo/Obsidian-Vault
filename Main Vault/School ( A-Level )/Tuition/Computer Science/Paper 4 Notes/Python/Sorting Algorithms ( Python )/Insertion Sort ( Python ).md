@@ -36,7 +36,7 @@ date: 07-08-2023
 
 ## Ascending Order
 
-This is the function only; it will **not** run on its on.
+This is the function only; it will **not** run on its own.
 
 ```python
 
