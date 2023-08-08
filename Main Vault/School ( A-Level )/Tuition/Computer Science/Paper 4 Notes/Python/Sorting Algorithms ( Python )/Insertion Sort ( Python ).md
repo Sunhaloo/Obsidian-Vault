@@ -22,7 +22,7 @@ date: 07-08-2023
 
 - It is **easy** to implement
 - Efficient with **small** data set/arrays
-- **More efficient** that *[[Bubble Sort ( Python )| Bubble Sort]]*
+- **More efficient** than *[[Bubble Sort ( Python )| Bubble Sort]]*
 - Can sort data as it receives it
 
 # Disadvantages of Insertion Sort:
